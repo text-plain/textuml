@@ -1,15 +1,16 @@
 <plugin>
    <extension
-         id="compiler"
+         id="compilerApplication"
          point="org.eclipse.core.runtime.applications">
       <application>
-         <run class="com.abstratt.mdd.frontend.cli.CompilationDirectorCLI"/>
+         <run class="com.abstratt.mdd.frontend.cli.EclipseCompilationDirectorCLI"/>
       </application>
    </extension>
    <extension
-         point="org.eclipse.core.runtime.products">
+         id="compilerProduct"
+         point="org.eclipse.core.runtime.products" >
       <product
-            application="com.abstratt.mdd.frontend.cli.compiler"
+            application="com.abstratt.mdd.frontend.cli.compilerApplication"
             name="MDD Front-end command-line interface">
       </product>
    </extension>

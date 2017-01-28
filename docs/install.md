@@ -35,7 +35,7 @@ Method 2: Installation via Update Manager
     JAR URL in the "Work with:" field (include jar: to the !/ at the
     end):
 
-<pre>jar:http://repository-textuml.forge.cloudbees.com/snapshot/com/abstratt/mdd/com.abstratt.mdd.oss.repository/2.1/com.abstratt.mdd.oss.repository-2.1.zip!/</pre>
+<pre>jar:http://repository-textuml.forge.cloudbees.com/snapshot/com/abstratt/mdd/com.abstratt.mdd.oss.repository/2.2/com.abstratt.mdd.oss.repository-2.2.zip!/</pre>
 
 -   Select the TextUML Toolkit feature from the Modeling category.
 
@@ -59,5 +59,10 @@ TextUML source files and can be edited with the TextUML editor and will
 be compiled by the TextUML compiler. You are ready now to try the
 TextUML
 Tutorial.
+
+Would you like to run the TextUML compiler as a regular Java application? 
+---------------------------------
+
+Check out the [standalone-textuml](http://github.com/abstratt/standalone-textuml) project.
 
 {% include footer.md %}
